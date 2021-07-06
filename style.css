@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 40px;
+    font-family: Impact, fantasy;
+    color: white;
+  }
+  ul{
+      float: right;
+      list-style-type: none;
+      margin-top: 45px;
+      margin-right: 50px;
+  }
+  ul li{
+      display: inline-block;
+  }
+  ul li a{
+      text-decoration: none;
+      color: white;
+      padding: 5px 20px;
+      border: 1px solid transparent;
+      transition: 0.6s ease;
+  }
+  ul li a:hover{
+      background-color: white;
+      color: black;
+  }
+  ul li.active a{
+    background-color: white;
+    color: black;
+  }
+  .button{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .btn{
+      border: 1px solid white;
+      padding: 10px 30px;
+      color: white;
+      text-decoration: none;
+      transition: 0.6s ease;
+  }
+  .btn:hover{
+      background-color: white;
+      color: black;
+  }
+  .mycontact{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../covid.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.mycontact p{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-size: 30px;
+    font-family: Impact, fantasy;
+    color: white;
+}
+.mycontact p a{
+    position: absolute;
+    left: 100px;
+    font-size: 30px;
+    font-family: Impact, fantasy;
+    color: white;
+}
+.other p{
+    top: 150px;
+    left: 40px;
+    font-size: 30px;
+    font-family: Impact, fantasy;
+    color: white;
+
+}
+.newsupdate{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../newsupdate.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.stats{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../statistics.jpg);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.vaccine img{
+    position: absolute;
+    bottom: 35px;
+    right: 57px;
+}
+.vaccine a{
+    position: absolute;
+    top: 140px;
+    left: 80px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.statsinfo{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.statsiframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+.information p{
+    font-size: 25px;
+    font-family: 'Arial';
+    color: white;
+    position: relative;
+    top: 280px;
+    left: 100px;
+}
+.news{
+    font-size: 23px;
+    font-family: 'Arial';
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 570px;
+}
+.prev{
+    position: relative;
+    bottom: 20px;
+    left: -700px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+}
+.next{
+    position: relative;
+    bottom: 15px;
+    right: 180px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+}
+#demo {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+}
+.clickme img{
+    position: absolute;
+    bottom: 60px;
+    right: 22px;
+}
+.clickme a{
+    position: absolute;
+    top: 110px;
+    left: 90px;
+    font-size: 19px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: white;
+    text-decoration: none;
+}
+.moreinfoiframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
