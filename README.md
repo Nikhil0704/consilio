@@ -1,2 +1,2 @@
 # consilio
-Website to show daily statistics of reported covid cases.
+code for my website which shows daily statistics of reported covid cases.
