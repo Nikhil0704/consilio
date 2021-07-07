@@ -8,12 +8,14 @@
               background-color: transparent;
               width: 500px;
               height: 400px;
-              border: 2px solid whitesmoke;
+              border: 7px solid yellow;
               padding: 10px;
               margin: 20px;
               position: relative;
               bottom: 70px;
               right: 70px;
+              overflow-y: hidden;
+              overflow-x: hidden;
             }
             </style>
     </head>
@@ -24,7 +26,7 @@
                 <li class="active"><a href="index.html">Go Back to Home</a></li>
             </ul>
             <div class="news">
-                <marquee id="demo" direction="up" scrollamount="3">Covid 19 - Latest News Updates</marquee>
+                <marquee id="demo" direction="up" scrollamount="3.5">Covid 19 - Latest News Updates</marquee>
 <button class="prev" onclick="previous()">Previous</button>
 <button class="next" onclick="next()">Next</button>
 <script>
@@ -55,6 +57,82 @@ i=text.length-1;
                          width="100" height="80"><br>&nbsp;&nbsp;&nbsp;&nbsp;CLICK HERE<br>&nbsp;FOR MORE INFO
             </a>
         </div>
+        <div class="latestreport">
+            
+            <style>
+            
+            table, th, tr {
+              border:3px solid white
+            }
+            #t1 {
+              position: fixed;
+              top: 270px;
+              left: 40px;
+              color: white;
+              font-size: 20px;
+            }
+            #t2{
+              position: fixed;
+              top: 440px;
+              left: 40px;
+              color: white;
+              font-size: 20px;
+            }
+            h2{
+            color: white;
+            position: fixed;
+            bottom: 13.25cm;
+            left: 2.7cm;
+            font-size: 25px;
+            }     
+            h3{
+            color: white;
+            position: fixed;
+            bottom: 8.75cm;
+            left: 2.7cm;
+            font-size: 23px;
+            }          
+            </style>
+            
+            <h2>Covid 19 India</h2>
+            
+            <table id="t1" style="width:20%">
+              <tr>
+                <td>Total cases :</td>
+                <td>30,663,665</td>
+              </tr>
+              <tr>
+                  <td>Recovered cases :</td>
+                <td>29,799,534</td>
+              </tr>
+              <tr>
+                  <td>Deaths :</td>
+                  <td>404,240</td>
+              </tr>
+              
+            </table>
+            <h3>Covid 19 Kerala</h3>
+            
+            <table id ="t2" style="width:20%">
+              <tr>
+                <td>Total cases :</td>
+                <td>29,96,094</td>
+              </tr>
+               <tr>
+                  <td>Active cases :</td>
+                <td>1,04,105</td>
+              </tr>
+              <tr>
+                  <td>Recovered cases :</td>
+                <td>28,77,557</td>
+              </tr>
+              <tr>
+                  <td>Deaths :</td>
+                  <td>13,960</td>
+              </tr>
+              
+            </table>
+            </div>     
 </header>
     </body>
 </html>
